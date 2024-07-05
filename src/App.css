@@ -1,0 +1,57 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+.home, .about {
+  padding: 20px;
+}
+
+.fetch-button {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.user-gallery-container {
+  padding: 20px;
+}
+
+.user-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.user-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.user-avatar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.user-card a {
+  margin-top: 10px;
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.user-card a:hover {
+  text-decoration: underline;
+}
